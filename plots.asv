@@ -15,8 +15,6 @@ xlabel("Time (ms)")
 ylabel("Linear Scale")
 title("Sinusoidal 100hz Linear Scale")
 
-print -deps sin100hzlin
-
 figure(2)
 plot(0:10:190, sin100hzlog)
 ylim([0 10])
@@ -24,7 +22,6 @@ xlabel("Time (ms)")
 ylabel("Logrithmic Scale")
 title("Sinusoidal 100hz Logrithmic Scale")
 
-print -deps sin100hzlog
 
 figure(3)
 plot(0:5:190/2, sin200hzlin)
@@ -33,7 +30,6 @@ xlabel("Time (ms)")
 ylabel("Linear Scale")
 title("Sinusoidal 200hz Linear Scale")
 
-print -deps sin200hzlin
 
 figure(4)
 plot(0:5:190/2, sin200hzlog)
@@ -42,7 +38,6 @@ xlabel("Time (ms)")
 ylabel("Logrithmic Scale")
 title("Sinusoidal 200hz Logrithmic Scale")
 
-print -deps sin200hzlog
 
 figure(5)
 plot(0:10:190, square100hzlin)
@@ -51,7 +46,6 @@ xlabel("Time (ms)")
 ylabel("Linear Scale")
 title("Square 100hz Linear Scale")
 
-print -deps square100hzlin
 
 figure(6)
 plot(0:10:190, sawtooth100hzlin)
@@ -59,5 +53,3 @@ ylim([0 10])
 xlabel("Time (ms)")
 ylabel("Linear Scale")
 title("Sawtooth 100hz Linear Scale")
-
-print -deps sawtooth100hzlin
